@@ -1,0 +1,48 @@
+mkdir epic-nfts
+cd epic-nfts
+npm init -y
+npm install --save-dev hardhat
+npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
+npm install @openzeppelin/contracts
+npx hardhat run scripts/sample-script.js
+Eliminados script.js - test.js y contract.sol
+scripts directorio y cree un archivo llamado  run.js
+
+
+hardhat.config.js
+require('@nomiclabs/hardhat-waffle');
+
+module.exports = {
+  solidity: '0.8.0',
+  networks: {
+    rinkeby: {
+      url: 'YOUR_ALCHEMY_API_URL',
+      accounts: ['YOUR_PRIVATE_RINKEBY_ACCOUNT_KEY'],
+    },
+  },
+};
+
+Direccion de contrato
+0x36F792C637D014dbC0A3f28ce718E08B9bd44dAC
+https://testnets.opensea.io/collection/squarenft-7ybsutbby7
+
+npx hardhat run scripts/deploy.js --network rinkeby
+https://jsonkeeper.com/b/CTJB   JSON
+https://www.svgviewer.dev/
+https://www.utilities-online.info/base64
+
+
+data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAzNTAgMzUwIj4KICAgIDxzdHlsZT4uYmFzZSB7IGZpbGw6IHdoaXRlOyBmb250LWZhbWlseTogc2VyaWY7IGZvbnQtc2l6ZTogMTRweDsgfTwvc3R5bGU+CiAgICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJibGFjayIgLz4KICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBjbGFzcz0iYmFzZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+RXBpY0xvcmRIYW1idXJnZXI8L3RleHQ+Cjwvc3ZnPg==
+
+
+JSON MODIFICADO EN BASE 64
+https://jsonkeeper.com/b/ULVZ
+DATOS JSON EN BASE 64
+
+data:application/json;base64,eyJuYW1lIjoiRXBpY0xvcmRIYW1idXJnZXIiLCJkZXNjcmlwdGlvbiI6IkFuIE5GVCBmcm9tIHRoZSBoaWdobHkgYWNjbGFpbWVkIHNxdWFyZSBjb2xsZWN0aW9uIiwiaW1hZ2UiOiJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJSEJ5WlhObGNuWmxRWE53WldOMFVtRjBhVzg5SW5oTmFXNVpUV2x1SUcxbFpYUWlJSFpwWlhkQ2IzZzlJakFnTUNBek5UQWdNelV3SWo0S0lDQWdJRHh6ZEhsc1pUNHVZbUZ6WlNCN0lHWnBiR3c2SUhkb2FYUmxPeUJtYjI1MExXWmhiV2xzZVRvZ2MyVnlhV1k3SUdadmJuUXRjMmw2WlRvZ01UUndlRHNnZlR3dmMzUjViR1UrQ2lBZ0lDQThjbVZqZENCM2FXUjBhRDBpTVRBd0pTSWdhR1ZwWjJoMFBTSXhNREFsSWlCbWFXeHNQU0ppYkdGamF5SWdMejRLSUNBZ0lEeDBaWGgwSUhnOUlqVXdKU0lnZVQwaU5UQWxJaUJqYkdGemN6MGlZbUZ6WlNJZ1pHOXRhVzVoYm5RdFltRnpaV3hwYm1VOUltMXBaR1JzWlNJZ2RHVjRkQzFoYm1Ob2IzSTlJbTFwWkdSc1pTSStSWEJwWTB4dmNtUklZVzFpZFhKblpYSThMM1JsZUhRK0Nqd3ZjM1puUGc9PSJ9
+
+LINK OPENSEA
+https://testnets.opensea.io/collection/squarenft-loy6seuzzy
+https://rinkeby.rarible.com/token/0xe44ea6C237D29DB91C9bC5ef1e8927B60fcc040E:1
+https://rinkeby.etherscan.io/address/0x2e22B6E585AA107C8d7Bfda57ECD7ed6E9983669#code
+
